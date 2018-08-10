@@ -7,7 +7,7 @@ There are two steps you have to follow.
 
 ### 1. Record IQ samples
 
-Various software tools can be used. I prefer GNU Radio but SDRSharp should work fine as well. On the hardware side, I use an RTL-SDR by NooElec with a 0.5PPM TCXO based on RTL2832U & R820T2. The antenna must be an active GPS antenna, otherwise the signal will be to weak. Any cheap active GPS antenna will work.
+Various software tools can be used. I prefer GNU Radio but SDRSharp should work fine as well. On the hardware side, I use an RTL-SDR by NooElec with a 0.5PPM TCXO based on RTL2832U & R820T2. The antenna must be an active GPS antenna, otherwise the signal will be too weak. Any cheap active GPS antenna will work.
 
 I've put exemplary record of 50000 IQ samples in the folder *samples_recorded*. Each IQ sample has a 4 byte real part and a 4 byte imaginary part, so the total file size is 50000*(4+4)=400000 kB.
 
