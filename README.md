@@ -31,7 +31,7 @@ PRN detected: 4  coarse CFO: 1100.00 Hz
 PRN detected: 7  coarse CFO: 1500.00 Hz
 PRN detected: 16  coarse CFO: 100.00 Hz
  
-Fine tuning every found satellite ...
+Fine tuning every satellite found ...
 PRN detected: 4  fine CFO: 1055.00 Hz
 PRN detected: 7  fine CFO: 1540.00 Hz
 PRN detected: 16  fine CFO: 140.00 Hz

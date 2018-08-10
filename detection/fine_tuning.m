@@ -16,7 +16,7 @@
 function [detectedCFOfine] = fine_tuning(samp_rate, IQsamples, freq_detection)
 
     disp(' ')
-    disp('Fine tuning every found satellite ...');
+    disp('Fine tuning every satellite found ...');
     
     % for each coarse estimation we will find a fine estimation
     detectedCFOfine = zeros(size(freq_detection.detectedCFOcoarse));
